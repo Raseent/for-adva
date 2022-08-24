@@ -1,0 +1,12 @@
+import time
+import datetime
+print("current date and time:",datetime.datetime.now())
+print("current year:",datetime.date.today().strftime("%Y"))
+print("month of year:",datetime.date.today().strftime("%b"))
+print("week number of the year:",datetime.date.today().strftime("%W"))
+print("weekday of the week:",datetime.date.today().strftime("%w"))
+print("day of year:",datetime.date.today().strftime("%j"))
+print("day of the month:",datetime.date.today().strftime("%d"))
+print("day of week:",datetime.date.today().strftime("%A"))
+
+
